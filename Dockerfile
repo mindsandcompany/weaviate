@@ -11,6 +11,8 @@ ENV GO111MODULE=on
 # Populate the module cache based on the go.{mod,sum} files.
 COPY go.mod .
 COPY go.sum .
+COPY submodules ./submodules
+
 RUN go mod download
 
 ###############################################################################
