@@ -1,0 +1,3 @@
+[submodule "submodules/kagome-dict-ko"]
+	path = submodules/kagome-dict-ko
+	url = https://github.com/mindsandcompany/kagome-dict-ko.git
